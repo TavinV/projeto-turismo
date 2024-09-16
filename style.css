@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+body {
+    overflow-x: hidden;
+    background: url('img/aaabstract.png') no-repeat;
+}
+
+header {
+    width: 100vw;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color:white;
+    background-color: #2F6690;
+}
+
+footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0C1821;
+    padding: 1%;
+    color: white;
+}
+
+main {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+
+/* PÁGINA HOME*/
+
+.call-to-action > img {
+    width: 700px;
+    border: 2px solid rgb(160, 160, 160);
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 30px;
+}
+
+.call-to-action {
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.texto {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.texto > a {
+    text-decoration: none;
+    color: #2F6690;
+    cursor: pointer;
+    text-align: center;
+    transition: all .2s ease;
+    width: 40%;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: 2px solid #2F6690;
+}
+
+.texto > a :hover {
+    scale: 1.03;
+}
+
+.texto > a :active {
+    scale: 0.98;
+}
+
+/* PÁGINA DE PACOTES */
+
+
+td > img {
+    height: 120px;
+}
+
+th {
+    background-color: #2F6690;
+    padding: 1%;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 3px;
+}
+
+td {
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+
